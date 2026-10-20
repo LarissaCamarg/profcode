@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício da Aula 02</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Exercício da Aula 02</h1>
+        <p>Preencha as informações abaixo:</p>
+    </header>
+
+    <main>
+
+        <form>
+
+            <!-- DADOS PESSOAIS -->
+            <section>
+                <h2>Dados pessoais</h2>
+
+                <p>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome">
+                </p>
+
+                <p>
+                    <label for="senha">Senha:</label><br>
+                    <input type="password" id="senha" name="senha">
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email">
+                </p>
+            </section>
+
+
+            <!-- SEXO E LAZER -->
+            <section>
+
+                <h2>Informações pessoais</h2>
+
+                <fieldset>
+                    <legend>Selecione seu sexo:</legend>
+
+                    <label>
+                        <input type="radio" name="sexo" value="masculino">
+                        Masculino
+                    </label>
+
+                    <br>
+
+                    <label>
+                        <input type="radio" name="sexo" value="feminino">
+                        Feminino
+                    </label>
+
+                    <br>
+
+                    <label>
+                        <input type="radio" name="sexo" value="outro">
+                        Outro
+                    </label>
+
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Preferências de lazer:</legend>
+
+                    <label>
+                        <input type="checkbox" name="lazer" value="cinema">
+                        Cinema
+                    </label>
+
+                    <br>
+
+                    <label>
+                        <input type="checkbox" name="lazer" value="teatro">
+                        Teatro
+                    </label>
+
+                    <br>
+
+                    <label>
+                        <input type="checkbox" name="lazer" value="esportes">
+                        Esportes
+                    </label>
+
+                    <br>
+
+                    <label>
+                        <input type="checkbox" name="lazer" value="caminhada">
+                        Caminhada
+                    </label>
+
+                </fieldset>
+
+            </section>
+
+
+            <!-- LOCALIZAÇÃO -->
+            <section>
+
+                <h2>Localização</h2>
+
+                <label for="bairro">
+                    Selecione seu bairro:
+                </label>
+
+                <br><br>
+
+                <select id="bairro" name="bairro">
+
+                    <option value="">
+                        Selecione um bairro
+                    </option>
+
+                    <option value="centro">
+                        Centro
+                    </option>
+
+                    <option value="jardim">
+                        Jardim
+                    </option>
+
+                    <option value="vila">
+                        Vila
+                    </option>
+
+                    <option value="industrial">
+                        Industrial
+                    </option>
+
+                </select>
+
+            </section>
+
+
+            <!-- COMENTÁRIOS -->
+            <section>
+
+                <h2>Comentários</h2>
+
+                <label for="comentarios">
+                    Digite seus comentários:
+                </label>
+
+                <br><br>
+
+                <textarea
+                    id="comentarios"
+                    name="comentarios"
+                    rows="10"
+                    cols="45"
+                    placeholder="Gostaríamos de saber sua opinião..."></textarea>
+
+            </section>
+
+
+            <!-- BOTÃO -->
+            <section>
+
+                <button type="submit">
+                    Enviar
+                </button>
+
+            </section>
+
+        </form>
+
+
+        <hr>
+
+
+        <!-- LINKS -->
+        <section>
+
+            <h2>
+                Sugestões para aprofundar seus conhecimentos
+            </h2>
+
+            <p>
+                <a href="#">
+                    Atributos que podemos utilizar na tag form
+                    (action, method...)
+                </a>
+            </p>
+
+            <p>
+                <a href="#">
+                    Elementos que podemos colocar dentro da tag form
+                    (input, textarea...)
+                </a>
+            </p>
+
+        </section>
+
+
+        <!-- IMAGENS -->
+        <section>
+
+            <h2>Imagens</h2>
+
+            <figure>
+
+                <img
+                    src="coração.jpg"
+                    alt="Coração"
+                    width="200">
+
+                <figcaption>
+                    Imagens
+                </figcaption>
+
+            </figure>
+
+            <figure>
+
+                <img
+                    src="flores.png"
+                    alt="Flor"
+                    width="200">
+
+                <figcaption>
+                    Obrigado!
+                </figcaption>
+
+            </figure>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <hr>
+
+        <p>
+            Exercício realizado na Aula 02.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
