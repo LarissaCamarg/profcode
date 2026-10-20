@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demonstração da Aula 1</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Demonstração da Aula 1</h1>
+        <h2>Esta aula foi em 13/08/2026</h2>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <p>
+            Este é um parágrafo. Vamos demonstrar neste exemplo diferentes
+            tags de HTML5, para analisar como funcionam.
+        </p>
+
+        <div>
+            Esta é uma tag <strong>div</strong>. Ela é um bloco retangular onde
+            podemos colocar texto, figuras etc. Dentro vamos colocar esta tag
+            <span>span</span>, de tipo inline que não quebra linha e não é
+            uma tag de tipo bloco.
+        </div>
+
+        <section>
+            <p>
+                Esta é uma tag <strong>section</strong>, é uma tag de bloco,
+                introduzida no HTML5, considerada uma "tag semântica",
+                como também as tags article, section, header, footer,
+                figure...
+            </p>
+        </section>
+
+        <article>
+            <p>
+                Esta é uma tag <strong>article</strong>. Dentro vamos colocar
+                <strong>algo em negrito</strong>, outro texto
+                <em>em itálico</em>, outro texto
+                <u>sublinhado</u> e um
+                <mark>texto marcado</mark>.
+            </p>
+        </article>
+
+        <section>
+            <h3>Lista de países</h3>
+
+            <ul>
+                <li>Argentina</li>
+                <li>Brasil</li>
+                <li>Cuba</li>
+                <li>Chile</li>
+                <li>Uruguai</li>
+                <li>Venezuela</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Meus cantores/as preferidas</h3>
+
+            <ol>
+                <li>Luisa Sonza</li>
+                <li>The Weeknd</li>
+                <li>Sabrina Carpenter</li>
+                <li>Harry Styles</li>
+                <li>Matuê</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Uma tabela de países com suas capitais</h3>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>País</th>
+                        <th>Capital</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Brasil</td>
+                        <td>Brasília - DF</td>
+                    </tr>
+
+                    <tr>
+                        <td>Itália</td>
+                        <td>Roma</td>
+                    </tr>
+
+                    <tr>
+                        <td>Espanha</td>
+                        <td>Madri</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cuba</td>
+                        <td>Havana</td>
+                    </tr>
+
+                    <tr>
+                        <td>Portugal</td>
+                        <td>Lisboa</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+
+            <figure>
+                <img src="foto de gato.jpg" alt="Imagem de gato">
+            </figure>
+
+            <figure>
+                <img src="foto de borboleta.jpg" alt="Foto de borboleta">
+                <figcaption>Isto é uma borboleta</figcaption>
+            </figure>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Elaborado por Larissa Camargo, em 13/08/2026</p>
+    </footer>
+
+</body>
+
+</html>
