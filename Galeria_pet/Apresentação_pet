@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria de Fotos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Galeria de Fotos</h1>
+    </header>
+
+    <main>
+        <p class="intro">Esta é uma página para apresentação de alguns animais de estimação. Aproveite as fotos!</p>
+
+        <figure>
+            <!-- Substitua "foto1.jpg" pelo nome exato da imagem salva no seu computador -->
+            <img src="cachorro.jpg" alt="Foto 1">
+            <figcaption>Foto 1</figcaption>
+        </figure>
+
+        <figure>
+            <img src="cachorro2.jpg" alt="Foto 2">
+            <figcaption>Foto 2</figcaption>
+        </figure>
+
+        <figure>
+            <img src="cachorro3.jpg" alt="Foto 3">
+            <figcaption>Foto 3</figcaption>
+        </figure>
+
+    </main>
+
+    <footer>
+        <p>&copy;2021 Aplicações para Internet</p>
+    </footer>
+
+</body>
+</html>
