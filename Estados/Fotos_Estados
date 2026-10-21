@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício - Aplicações para Internet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho Principal -->
+    <header class="header-principal">
+        <h1>47150815 - Larissa Camargo dos Santos</h1>
+    </header>
+
+    <!-- Container Principal de Conteúdo -->
+    <main class="container">
+        
+        <!-- Coluna 1: Rio de Janeiro -->
+        <article class="card">
+            <header class="card-header">
+                <h3>Relevo do Rio de Janeiro</h3>
+            </header>
+            <div class="card-body">
+                <h2>Rio de Janeiro</h2>
+               <p>Conhecida por suas paisagens naturais deslumbrantes, com morros de relevo acentuado e praias icônicas cercadas por vegetação tropical.</p>
+                <a href="riodejaneiro2.jpg" target="_blank" class="btn-foto">Foto</a>
+            </div>
+        </article>
+
+        <!-- Coluna 2: Fortaleza -->
+        <article class="card">
+            <header class="card-header">
+                <h3>Costa de Fortaleza</h3>
+            </header>
+            <div class="card-body">
+                <h2>Fortaleza</h2>
+                <p>Famosa por sua extensa faixa litorânea com falésias coloridas, praias de águas mornas e forte tradição cultural nordestina.</p>
+                <a href="fortaleza2.jpg" target="_blank" class="btn-foto">Foto</a>
+            </div>
+        </article>
+
+        <!-- Coluna 3: Maceió -->
+        <article class="card">
+            <header class="card-header">
+                <h3>Praia de Pajuçara</h3>
+            </header>
+            <div class="card-body">
+                <h2>Maceió</h2>
+                <p>Destino paradisíaco reconhecido por suas águas cristalinas em tons de azul-turquesa e piscinas naturais formadas por recifes de corais.</p>
+                <a href="maceio2.jpg" target="_blank" class="btn-foto">Foto</a>
+            </div>
+        </article>
+
+    </main>
+
+</body>
+</html>
