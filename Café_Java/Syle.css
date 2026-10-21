@@ -1,0 +1,111 @@
+/* Centraliza a caixa principal na tela, conforme exigido no exercício */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6f7fc; /* Cor de fundo clarinha inspirada no print */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /* Fonte parecida com a do exercício */
+}
+
+/* Estilo da caixa principal (Card) */
+.card {
+    background-color: #ffffff;
+    width: 320px;
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra para dar destaque */
+    overflow: hidden; /* Garante que a imagem respeite as bordas arredondadas */
+}
+
+/* Estilo da imagem do topo */
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Espaçamento interno do conteúdo do cartão */
+.card-body {
+    padding: 20px;
+}
+
+/* Alinha o título e a distância lado a lado */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.distancia {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Estrelas e avaliação */
+.avaliacao {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.estrelas {
+    color: #ffd700; /* Cor dourada para as estrelas */
+}
+
+/* Preço e Tipo */
+.preco-tipo {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Texto de descrição */
+.descricao {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+
+/* Seção de horários centralizada */
+.horarios {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.horarios h4 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.horarios p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Botão Reservar */
+.btn-reservar {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: #a0a0a0;
+    font-size: 24px;
+    font-family: inherit;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn-reservar:hover {
+    color: #707070; /* Escurece um pouco ao passar o mouse */
+}
