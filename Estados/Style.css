@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #efefef;
+    padding: 20px;
+}
+
+/* Cabeçalho topo com RGM e Nome */
+.header-principal {
+    max-width: 960px;
+    margin: 0 auto 15px auto;
+    padding: 12px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.header-principal h1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Layout em 3 colunas */
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+/* Estrutura de cada card */
+.card {
+    flex: 1;
+    max-width: 310px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Topo do card com fundo cinza claro */
+.card-header {
+    background-color: #e0e0e0;
+    padding: 10px 15px;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+}
+
+.card-header h3 {
+    font-size: 0.95rem;
+    color: #222222;
+    font-weight: bold;
+}
+
+/* Conteúdo interno do card */
+.card-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.card-body h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.card-body p {
+    font-size: 0.85rem;
+    color: #555555;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+/* Botão "Foto" azul */
+.btn-foto {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.btn-foto:hover {
+    background-color: #0056b3;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 100%;
+    }
+}
