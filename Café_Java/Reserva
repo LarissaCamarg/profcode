@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 2 - Café Java</title>
+    <link rel="stylesheet" href="style02.css">
+</head>
+<body>
+
+    <!-- A caixa principal que o exercício pede para centralizar -->
+    <div class="card">
+        
+        <!-- Imagem do topo -->
+        <img src="cafe.jpg" alt="Xícara de café com grãos">
+        
+        <!-- Conteúdo do cartão -->
+        <div class="card-body">
+            
+            <div class="card-header">
+                <h2>Café Java</h2>
+                <span class="distancia">📍 12km</span>
+            </div>
+            
+            <div class="avaliacao">
+                <span class="estrelas">⭐⭐⭐⭐⭐</span> 4.8 (23)
+            </div>
+            
+            <h3 class="preco-tipo">$$$ Café brasileiro</h3>
+            
+            <p class="descricao">
+                O ponto de encontro perfeito para uma pausa no seu dia.<br>
+            </p>
+            
+            <div class="horarios">
+                <h4>Sexta a Domingo</h4>
+                <p>🕒 5:30PM 7:30PM 9:30PM</p>
+            </div>
+            
+            <button class="btn-reservar">Reservar</button>
+            
+        </div>
+    </div>
+
+</body>
+</html>
