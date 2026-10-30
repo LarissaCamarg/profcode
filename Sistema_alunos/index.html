@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sistema de Registro de Alunos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div>
+            <h1>Registro de Alunos</h1>
+            <p>Sistema de gerenciamento acadêmico</p>
+        </div>
+
+        <div class="logo">
+            <span>🎓</span>
+            <div>
+                <strong>Universidade</strong>
+                <small>Cruzeiro do Sul</small>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- FORMULÁRIO -->
+        <section class="formulario">
+
+            <div class="titulo-secao">
+                <h2>Cadastro de Aluno</h2>
+                <p>Preencha os campos abaixo para cadastrar um aluno.</p>
+            </div>
+
+            <form id="formAluno">
+
+                <div class="campo">
+                    <label for="nome">Nome completo</label>
+                    <input
+                        type="text"
+                        id="nome"
+                        placeholder="Digite o nome do aluno"
+                        maxlength="100"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="rgm">RGM</label>
+                    <input
+                        type="text"
+                        id="rgm"
+                        placeholder="Digite o RGM"
+                        maxlength="30"
+                        required
+                    >
+                </div>
+
+                <div class="divisor">
+                    <span>Notas do aluno</span>
+                </div>
+
+                <div class="campo">
+                    <label for="provaParcial">Nota na Prova Parcial</label>
+                    <input
+                        type="number"
+                        id="provaParcial"
+                        placeholder="Ex: 8.5"
+                        min="0"
+                        max="10"
+                        step="0.1"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="exercicios">Nota nos Exercícios</label>
+                    <input
+                        type="number"
+                        id="exercicios"
+                        placeholder="Ex: 9.0"
+                        min="0"
+                        max="10"
+                        step="0.1"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="projetoGrupos">Nota no Projeto em Grupos</label>
+                    <input
+                        type="number"
+                        id="projetoGrupos"
+                        placeholder="Ex: 7.5"
+                        min="0"
+                        max="10"
+                        step="0.1"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="provaRegimental">Nota na Prova Regimental (A1)</label>
+                    <input
+                        type="number"
+                        id="provaRegimental"
+                        placeholder="Ex: 8.0"
+                        min="0"
+                        max="10"
+                        step="0.1"
+                        required
+                    >
+                </div>
+
+                <div class="botoes">
+
+                    <button
+                        type="submit"
+                        class="btn-cadastrar"
+                    >
+                        + Cadastrar Aluno
+                    </button>
+
+                    <button
+                        type="button"
+                        class="btn-mostrar"
+                        id="btnMostrar"
+                    >
+                        Mostrar Alunos
+                    </button>
+
+                </div>
+
+                <p id="mensagem" role="status" aria-live="polite"></p>
+
+            </form>
+
+        </section>
+
+        <!-- LISTAGEM DOS ALUNOS -->
+        <section class="resultado">
+
+            <div class="cabecalho-lista">
+
+                <div>
+                    <h2>Alunos Cadastrados</h2>
+                    <p>Confira os resultados acadêmicos.</p>
+                </div>
+
+                <span id="contador" class="contador">
+                    0 alunos
+                </span>
+
+            </div>
+
+            <div id="lista-alunos">
+
+                <div class="estado-vazio">
+                    <span>📋</span>
+                    <h3>Nenhum aluno cadastrado</h3>
+                    <p>Cadastre um aluno para visualizar os resultados aqui.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Exercício acadêmico | HTML5, CSS3 e JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
